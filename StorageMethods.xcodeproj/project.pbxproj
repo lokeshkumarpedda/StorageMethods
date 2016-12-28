@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58034A991E0D4E6D00C561D0 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58034A981E0D4E6D00C561D0 /* UserModel.swift */; };
 		581968481E0CF16800F972E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581968471E0CF16800F972E5 /* AppDelegate.swift */; };
-		5819684A1E0CF16800F972E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581968491E0CF16800F972E5 /* ViewController.swift */; };
+		5819684A1E0CF16800F972E5 /* UserDefaultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581968491E0CF16800F972E5 /* UserDefaultsVC.swift */; };
 		5819684D1E0CF16800F972E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5819684B1E0CF16800F972E5 /* Main.storyboard */; };
 		581968501E0CF16800F972E5 /* StorageMethods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5819684E1E0CF16800F972E5 /* StorageMethods.xcdatamodeld */; };
 		581968521E0CF16800F972E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581968511E0CF16800F972E5 /* Assets.xcassets */; };
 		581968551E0CF16800F972E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581968531E0CF16800F972E5 /* LaunchScreen.storyboard */; };
+		5819685D1E0D070F00F972E5 /* PlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5819685C1E0D070F00F972E5 /* PlistVC.swift */; };
+		5819685F1E0D09CA00F972E5 /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5819685E1E0D09CA00F972E5 /* UserInfo.plist */; };
+		581968671E0D248F00F972E5 /* CoreDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581968661E0D248F00F972E5 /* CoreDataVC.swift */; };
+		581968691E0D397700F972E5 /* SqliteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581968681E0D397700F972E5 /* SqliteVC.swift */; };
+		5819686B1E0D405100F972E5 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5819686A1E0D405100F972E5 /* Database.swift */; };
+		5819686D1E0D438300F972E5 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5819686C1E0D438300F972E5 /* FMDB.framework */; };
+		B3354FC3BCCB874C69BC1C9F /* Pods_StorageMethods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB2D7BE23116A37EF0F97FE /* Pods_StorageMethods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58034A981E0D4E6D00C561D0 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		581968441E0CF16800F972E5 /* StorageMethods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageMethods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		581968471E0CF16800F972E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		581968491E0CF16800F972E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		581968491E0CF16800F972E5 /* UserDefaultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsVC.swift; sourceTree = "<group>"; };
 		5819684C1E0CF16800F972E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5819684F1E0CF16800F972E5 /* StorageMethods.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StorageMethods.xcdatamodel; sourceTree = "<group>"; };
 		581968511E0CF16800F972E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		581968541E0CF16800F972E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		581968561E0CF16800F972E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5819685C1E0D070F00F972E5 /* PlistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistVC.swift; sourceTree = "<group>"; };
+		5819685E1E0D09CA00F972E5 /* UserInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserInfo.plist; sourceTree = "<group>"; };
+		581968661E0D248F00F972E5 /* CoreDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataVC.swift; sourceTree = "<group>"; };
+		581968681E0D397700F972E5 /* SqliteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqliteVC.swift; sourceTree = "<group>"; };
+		5819686A1E0D405100F972E5 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		5819686C1E0D438300F972E5 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = "../../Library/Developer/Xcode/DerivedData/StorageMethods-gkpkxxpggltvhefltopftrjbqggs/Build/Products/Debug-iphonesimulator/FMDB/FMDB.framework"; sourceTree = "<group>"; };
+		6FB2D7BE23116A37EF0F97FE /* Pods_StorageMethods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StorageMethods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5809FC664B91212AFFB89E2 /* Pods-StorageMethods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorageMethods.release.xcconfig"; path = "Pods/Target Support Files/Pods-StorageMethods/Pods-StorageMethods.release.xcconfig"; sourceTree = "<group>"; };
+		E2C9A309B632A9521B6D0965 /* Pods-StorageMethods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorageMethods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StorageMethods/Pods-StorageMethods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5819686D1E0D438300F972E5 /* FMDB.framework in Frameworks */,
+				B3354FC3BCCB874C69BC1C9F /* Pods_StorageMethods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +62,8 @@
 			children = (
 				581968461E0CF16800F972E5 /* StorageMethods */,
 				581968451E0CF16800F972E5 /* Products */,
+				F521C9E1206ACED8E8E56F03 /* Pods */,
+				B7A513BB0E1FE23C9A678088 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,71 @@
 		581968461E0CF16800F972E5 /* StorageMethods */ = {
 			isa = PBXGroup;
 			children = (
+				581968631E0D0A0400F972E5 /* CoreData */,
+				581968621E0D09F900F972E5 /* Sqlite */,
+				581968611E0D09E400F972E5 /* Plist */,
+				581968601E0D09D200F972E5 /* UserDefaults */,
 				581968471E0CF16800F972E5 /* AppDelegate.swift */,
-				581968491E0CF16800F972E5 /* ViewController.swift */,
+				58034A981E0D4E6D00C561D0 /* UserModel.swift */,
 				5819684B1E0CF16800F972E5 /* Main.storyboard */,
 				581968511E0CF16800F972E5 /* Assets.xcassets */,
 				581968531E0CF16800F972E5 /* LaunchScreen.storyboard */,
 				581968561E0CF16800F972E5 /* Info.plist */,
-				5819684E1E0CF16800F972E5 /* StorageMethods.xcdatamodeld */,
 			);
 			path = StorageMethods;
+			sourceTree = "<group>";
+		};
+		581968601E0D09D200F972E5 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				581968491E0CF16800F972E5 /* UserDefaultsVC.swift */,
+			);
+			name = UserDefaults;
+			sourceTree = "<group>";
+		};
+		581968611E0D09E400F972E5 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				5819685E1E0D09CA00F972E5 /* UserInfo.plist */,
+				5819685C1E0D070F00F972E5 /* PlistVC.swift */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		581968621E0D09F900F972E5 /* Sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				581968681E0D397700F972E5 /* SqliteVC.swift */,
+				5819686A1E0D405100F972E5 /* Database.swift */,
+			);
+			name = Sqlite;
+			sourceTree = "<group>";
+		};
+		581968631E0D0A0400F972E5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5819684E1E0CF16800F972E5 /* StorageMethods.xcdatamodeld */,
+				581968661E0D248F00F972E5 /* CoreDataVC.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		B7A513BB0E1FE23C9A678088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5819686C1E0D438300F972E5 /* FMDB.framework */,
+				6FB2D7BE23116A37EF0F97FE /* Pods_StorageMethods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F521C9E1206ACED8E8E56F03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2C9A309B632A9521B6D0965 /* Pods-StorageMethods.debug.xcconfig */,
+				D5809FC664B91212AFFB89E2 /* Pods-StorageMethods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 581968591E0CF16800F972E5 /* Build configuration list for PBXNativeTarget "StorageMethods" */;
 			buildPhases = (
+				1E40CEEF76227C66F6B77511 /* [CP] Check Pods Manifest.lock */,
 				581968401E0CF16800F972E5 /* Sources */,
 				581968411E0CF16800F972E5 /* Frameworks */,
 				581968421E0CF16800F972E5 /* Resources */,
+				BCED37F462DABE4DE61AF178 /* [CP] Embed Pods Frameworks */,
+				E5375A82C6C9D70DDE7A9F20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,19 +211,73 @@
 				581968551E0CF16800F972E5 /* LaunchScreen.storyboard in Resources */,
 				581968521E0CF16800F972E5 /* Assets.xcassets in Resources */,
 				5819684D1E0CF16800F972E5 /* Main.storyboard in Resources */,
+				5819685F1E0D09CA00F972E5 /* UserInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E40CEEF76227C66F6B77511 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCED37F462DABE4DE61AF178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StorageMethods/Pods-StorageMethods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5375A82C6C9D70DDE7A9F20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StorageMethods/Pods-StorageMethods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		581968401E0CF16800F972E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5819684A1E0CF16800F972E5 /* ViewController.swift in Sources */,
+				5819684A1E0CF16800F972E5 /* UserDefaultsVC.swift in Sources */,
+				5819685D1E0D070F00F972E5 /* PlistVC.swift in Sources */,
+				58034A991E0D4E6D00C561D0 /* UserModel.swift in Sources */,
+				581968691E0D397700F972E5 /* SqliteVC.swift in Sources */,
 				581968481E0CF16800F972E5 /* AppDelegate.swift in Sources */,
 				581968501E0CF16800F972E5 /* StorageMethods.xcdatamodeld in Sources */,
+				5819686B1E0D405100F972E5 /* Database.swift in Sources */,
+				581968671E0D248F00F972E5 /* CoreDataVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +398,7 @@
 		};
 		5819685A1E0CF16800F972E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C9A309B632A9521B6D0965 /* Pods-StorageMethods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
@@ -270,12 +406,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.next.StorageMethods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
 		5819685B1E0CF16800F972E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5809FC664B91212AFFB89E2 /* Pods-StorageMethods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
@@ -283,7 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.next.StorageMethods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
@@ -306,6 +443,7 @@
 				5819685B1E0CF16800F972E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
